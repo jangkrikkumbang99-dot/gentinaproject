@@ -103,7 +103,7 @@ export default function Header() {
               <div className="relative">
                 <ShoppingBag className="w-5 h-5 text-teal-700" />
                 {totalItems > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-rose-500 text-white text-[11px] font-bold w-5 h-5 rounded-full flex items-center justify-center animate-bounce shadow-xs">
+                  <span className="absolute -top-2 -right-2 bg-rose-500 text-white text-[11px] font-bold w-5 h-5 rounded-full flex items-center justify-center shadow-xs">
                     {totalItems}
                   </span>
                 )}
